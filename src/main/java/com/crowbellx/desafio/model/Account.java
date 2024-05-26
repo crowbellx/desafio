@@ -17,7 +17,7 @@ public record Account(
          @Column(name = "additional_limit", scale = 13, precision = 2)
          BigDecimal balance,
 
-         @Column(scale = 13, precision = 2)
+         @Column(scale = 2, precision = 13)
          BigDecimal limit
 ) {
 }

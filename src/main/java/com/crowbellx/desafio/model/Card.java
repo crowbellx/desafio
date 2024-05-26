@@ -12,7 +12,7 @@ public record Card(
         @Column(unique = true)
         String number,
 
-        @Column(name = "available_limit",scale = 13, precision = 2)
+        @Column(name = "available_limit",scale = 2, precision = 13)
         BigDecimal limit
 ) {
 }
